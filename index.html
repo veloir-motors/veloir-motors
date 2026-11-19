@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090a0b">
+  <meta name="description" content="Veloir Motors. Búsqueda personalizada e importación de vehículos de Europa a España. Inspección, documentación y entrega.">
+  <title>Veloir Motors | Tu próximo coche está en Europa</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script><script src="script.js" defer></script>
+</head>
+<body>
+<svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+<symbol id="car" viewBox="0 0 32 32"><path d="m6 12 3-7h14l3 7M4 12h24v11H4zM8 23v4m16-4v4M8 17h3m10 0h3M6 12h20"/></symbol>
+<symbol id="shield" viewBox="0 0 32 32"><path d="M16 2c4 4 9 5 12 5v10c0 6-7 11-12 14C11 28 4 23 4 17V7c3 0 8-1 12-5Z"/><path d="m10 16 4 4 8-9"/></symbol>
+<symbol id="document" viewBox="0 0 32 32"><path d="M7 2h13l7 7v21H7zM20 2v8h7M11 15h12M11 20h12M11 25h9"/></symbol>
+<symbol id="truck" viewBox="0 0 32 32"><path d="M2 5h18v20H9M20 12h6l5 7v6h-4M20 25h-5M2 25V5M21 13v7h10"/><circle cx="11" cy="25" r="4"/><circle cx="24" cy="25" r="4"/></symbol>
+<symbol id="search" viewBox="0 0 32 32"><circle cx="13" cy="13" r="10"/><path d="m21 21 9 9"/></symbol>
+<symbol id="check" viewBox="0 0 32 32"><rect x="5" y="5" width="23" height="25" rx="3"/><path d="M16 1v8m-5 10 4 4 8-10"/></symbol>
+<symbol id="whatsapp" viewBox="0 0 32 32"><path d="M27 5a14 14 0 0 1-17 22l-8 3 2-8A14 14 0 0 1 27 5Z"/><path d="m11 8-3 3c1 7 6 12 13 13l3-4-5-3-2 2c-3-1-5-3-6-6l2-1z"/></symbol>
+<symbol id="play" viewBox="0 0 32 32"><circle cx="16" cy="16" r="13"/><path d="m13 10 9 6-9 6z"/></symbol>
+<symbol id="europe" viewBox="0 0 32 32"><circle cx="16" cy="16" r="12" stroke-dasharray="1 6" stroke-width="3"/></symbol>
+</defs></svg>
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+<div class="scroll-progress" aria-hidden="true"></div>
+<header class="header"><div class="container nav-wrap">
+  <a class="brand" href="#inicio" aria-label="Veloir Motors, inicio"><span class="brand-image" role="img" aria-label="Veloir Motors"></span></a>
+  <button class="menu-toggle" aria-expanded="false" aria-controls="navigation" aria-label="Abrir menú"><span></span><span></span></button>
+  <nav id="navigation" aria-label="Navegación principal"><a class="active" href="#inicio">Inicio</a><a href="#servicios">Servicios</a><a href="#proceso">Proceso</a><a href="#nosotros">Sobre nosotros</a></nav>
+  <a class="button primary nav-contact" href="#contacto"><svg><use href="#whatsapp"/></svg>Contacto</a>
+</div></header>
+<main id="contenido">
+<section class="hero" id="inicio" aria-labelledby="hero-title">
+  <div class="hero-image" aria-hidden="true"></div><div class="hero-shade"></div>
+  <div class="container hero-content"><p class="eyebrow intro">Importación · Compra · Venta</p><h1 class="intro" id="hero-title">Tu próximo coche<br>está en <em>Europa.</em></h1><p class="hero-copy intro">Nosotros vamos a verlo por ti, lo importamos<br class="desktop-break"> y te lo entregamos listo para disfrutar.</p><div class="hero-actions intro"><a class="button primary" href="#servicios"><svg><use href="#car"/></svg>Así lo importamos <span aria-hidden="true">→</span></a><a class="button outline" href="#proceso"><svg><use href="#play"/></svg>Ver proceso</a></div></div>
+  <div class="container trust-grid"><div class="trust reveal"><svg><use href="#europe"/></svg><p>Vehículos en toda<br><strong>Europa</strong></p></div><div class="trust reveal"><svg><use href="#shield"/></svg><p>Inspección y<br><strong>verificación</strong></p></div><div class="trust reveal"><svg><use href="#document"/></svg><p>Gestión y<br><strong>documentación</strong></p></div><div class="trust reveal"><svg><use href="#truck"/></svg><p>Entrega en<br><strong>España</strong></p></div></div>
+</section>
+<section class="services section container" id="servicios"><div class="reveal"><p class="eyebrow">Nuestros servicios</p><h2>Todo el proceso, sin complicaciones.</h2></div>
+<div class="service-grid">
+  <article class="service-card reveal" data-service="search"><img class="service-art search-photo" src="assets/search.png" alt="Detalle del faro de un Mercedes negro" loading="lazy"><div class="service-body"><h3><svg><use href="#search"/></svg>Búsqueda<br>personalizada</h3><p>Encontramos el coche que se adapta a ti.</p></div><button class="service-open" type="button">Ver detalles<span class="sr-only"> del servicio</span></button></article>
+  <article class="service-card reveal" data-service="inspection"><svg class="service-art" viewBox="296 800 210 95" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><image href="assets/reference.png" width="1024" height="1536"/></svg><div class="service-body"><h3><svg><use href="#check"/></svg>Inspección<br>en origen</h3><p>Revisión del vehículo para conocer su estado real.</p></div><button class="service-open" type="button">Ver detalles<span class="sr-only"> del servicio</span></button></article>
+  <article class="service-card reveal" data-service="documents"><svg class="service-art" viewBox="530 800 210 95" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><image href="assets/reference.png" width="1024" height="1536"/></svg><div class="service-body"><h3><svg><use href="#document"/></svg>Gestión y<br>documentación</h3><p>Nos encargamos de los trámites de importación.</p></div><button class="service-open" type="button">Ver detalles<span class="sr-only"> del servicio</span></button></article>
+  <article class="service-card reveal" data-service="delivery"><svg class="service-art" viewBox="764 800 210 95" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><image href="assets/reference.png" width="1024" height="1536"/></svg><div class="service-body"><h3><svg><use href="#truck"/></svg>Entrega</h3><p>Te lo entregamos en España, listo para disfrutar.</p></div><button class="service-open" type="button">Ver detalles<span class="sr-only"> del servicio</span></button></article>
+</div></section>
+<section class="process section" id="proceso"><div class="container"><div class="section-heading reveal"><div><p class="eyebrow">De Europa a tu garaje</p><h2>Tú eliges el destino.<br>Nosotros, el camino.</h2></div><p>Una búsqueda a tu medida.<br>Un proceso que conoces de principio a fin.</p></div>
+<div class="process-layout"><div class="process-visual reveal"><div class="route-label"><span>EUROPA</span><span>ESPAÑA</span></div><div class="route"><svg><use href="#car"/></svg></div><p>Tu próximo coche.<br><em>Cada vez más cerca.</em></p></div>
+<div class="steps">
+<details class="reveal" open><summary>Cuéntanos qué coche buscas<span>+</span></summary><p>Marca, modelo, equipamiento y presupuesto. Empezamos por escucharte para orientar la búsqueda a lo que necesitas.</p></details>
+<details class="reveal"><summary>Buscamos y revisamos<span>+</span></summary><p>Localizamos opciones en Europa y comprobamos la información del vehículo. La inspección en origen permite conocer su estado antes de seguir adelante.</p></details>
+<details class="reveal"><summary>Organizamos la importación<span>+</span></summary><p>Te explicamos los siguientes pasos y coordinamos la documentación y el traslado del coche a España.</p></details>
+<details class="reveal"><summary>Recibe tu próximo coche<span>+</span></summary><p>Preparamos la entrega y te acompañamos hasta que el coche esté en tus manos. Tú solo piensa en el primer viaje.</p></details>
+</div></div></div></section>
+<section class="about section container" id="nosotros"><div class="reveal"><p class="eyebrow">Sobre Veloir Motors</p><h2>La pasión por los coches.<br><em>El cuidado de cada detalle.</em></h2></div><div class="about-copy reveal"><p>Elegir un coche es algo personal. Por eso partimos de lo que buscas y te acompañamos durante todo el proceso de importación.</p><p>Conectamos tu búsqueda con el mercado europeo: selección, inspección, documentación y entrega en España. Un único hilo de principio a fin.</p><a class="text-link" href="#contacto">Hablemos de tu próximo coche <span aria-hidden="true">↗</span></a></div></section>
+<section class="contact container reveal" id="contacto"><div><p class="eyebrow">Empezamos contigo</p><h2>¿Buscas algo concreto?</h2><p>Cuéntanos qué coche quieres y lo encontramos por ti.</p></div><button class="button primary" data-contact><svg><use href="#whatsapp"/></svg>Contactar por WhatsApp</button></section>
+</main>
+<footer class="container footer"><a href="#inicio" class="footer-brand">VELOIR <span>MOTORS</span></a><p>Importación de vehículos · Europa — España</p><a href="#inicio">Volver al inicio ↑</a></footer>
+<dialog id="contact-dialog" aria-labelledby="contact-title"><button class="dialog-close" aria-label="Cerrar">×</button><p class="eyebrow">Tu próxima historia</p><h2 id="contact-title">¿Qué coche tienes en mente?</h2><form id="contact-form"><label>Marca y modelo<input name="model" placeholder="Ej. Mercedes-AMG GT 63" required maxlength="120"></label><label>Presupuesto aproximado<input name="budget" placeholder="Ej. 45.000 €" maxlength="80"></label><label>¿Qué más deberíamos saber?<textarea name="message" placeholder="Equipamiento, kilometraje, preferencias…" rows="3" maxlength="1500"></textarea></label><button type="submit" class="button primary" id="send-contact">Preparar mensaje</button><p id="contact-status" role="status"></p><textarea id="prepared-message" aria-label="Mensaje preparado para copiar" readonly hidden rows="5"></textarea></form></dialog>
+<dialog id="service-dialog" aria-labelledby="service-title"><button class="service-close" type="button" aria-label="Cerrar información del servicio">×</button><p class="eyebrow">Nuestros servicios</p><h2 id="service-title"></h2><p id="service-intro"></p><ul id="service-points"></ul><p id="service-note"></p><button class="button primary service-return" type="button">Cerrar y volver</button></dialog>
+</body></html>
+
+
